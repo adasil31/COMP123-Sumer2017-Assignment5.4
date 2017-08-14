@@ -46,14 +46,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="BMICalculatorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="BMICalculatorForm.Designer.cs">
+      <DependentUpon>BMICalculatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Female.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Female.Designer.cs">
+      <DependentUpon>Female.cs</DependentUpon>
+    </Compile>
+    <Compile Include="male.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="male.Designer.cs">
+      <DependentUpon>male.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BMICalculatorForm.resx">
+      <DependentUpon>BMICalculatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Female.resx">
+      <DependentUpon>Female.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="male.resx">
+      <DependentUpon>male.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

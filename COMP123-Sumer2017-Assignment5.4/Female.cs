@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace COMP123_Sumer2017_Assignment5._4
 {
-    public partial class Form1 : Form
+    public partial class FemaleLabel : Form
     {
-        public Form1()
+        public FemaleLabel()
         {
             InitializeComponent();
         }
